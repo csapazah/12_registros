@@ -50,6 +50,16 @@ int main(){
 		}
 		cout << endl;
 	}
+    if(pos_mayor!=-1){
+		cout << "PERSONA CON MAYOR NUMERO DE MEDALLAS DE " << Deportista[pos_mayor].pais << endl;
+		cout << "Nombre: " << Deportista[pos_mayor].nombre << endl;
+		cout << "Pais: " << Deportista[pos_mayor].pais << endl;
+		cout << "Disciplina: " << Deportista[pos_mayor].disciplina << endl;
+		cout << "Medallas: " << Deportista[pos_mayor].medallas << endl;
+	}
+	else{
+		cout << "No se encontro personas de ese pais";
+	}
 
     return 0;
 }
