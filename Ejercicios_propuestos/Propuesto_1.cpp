@@ -26,7 +26,7 @@ int main(){
 	}
     float mayor = empleados[0].sueldo;
 	float menor = empleados[0].sueldo;
-    
+
     for(int j=1 ; j<n ; j++){
 		if(mayor < (empleados[j].sueldo)){
 			mayor = empleados[j].sueldo;
@@ -35,5 +35,6 @@ int main(){
 			menor = empleados[j].sueldo;
 		}
 	}
+    cout << "El mayor sueldo es de " <<  mayor << endl << "El menor sueldo es de "<< menor;
     return 0;
 }
