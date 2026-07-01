@@ -33,5 +33,12 @@ int main(){
     }
     prom = suma / n;
     
+    cout << "Mayores de 50 " << endl << cont_edad << endl;
+	cout << "Promedio de edades" <<endl << prom << endl;
+	cout << "Participantes " << endl ;
+	for(int k=0 ; k<n ; k++){
+		cout << Identidad[k].nombres << endl;
+	}
+
     return 0;
 }
