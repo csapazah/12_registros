@@ -27,5 +27,9 @@ int main(){
 		cout << "===========================================" << endl;
 		
 	}
+    
+    char Pais_leer[20];
+	cout << "DIGITE UN PAIS" << endl;
+	cin.getline(Pais_leer,20);
     return 0;
 }
