@@ -26,6 +26,14 @@ int main(){
 	}
     float mayor = empleados[0].sueldo;
 	float menor = empleados[0].sueldo;
-
+    
+    for(int j=1 ; j<n ; j++){
+		if(mayor < (empleados[j].sueldo)){
+			mayor = empleados[j].sueldo;
+		}
+		if(menor > (empleados[j].sueldo)){
+			menor = empleados[j].sueldo;
+		}
+	}
     return 0;
 }
