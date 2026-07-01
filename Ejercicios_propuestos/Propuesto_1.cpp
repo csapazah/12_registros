@@ -12,6 +12,18 @@ int main(){
 	cout << "Nro de empleados " << endl;
 	cin >> n;
 	cin.ignore();
+    
+    for(int i=0 ; i<n ; i++){
+		cout << "Empleado " << i+1 << endl;
+		cout << "Nombre" << endl;
+		cin.getline(empleados[i].nombre,50);
+		cout << "sexo" << endl;
+		cin >> empleados[i].sexo;
+		cout << "sueldo " << endl;
+		cin >> empleados[i].sueldo;
+		cin.ignore();
+		cout << "=======================================" << endl;
+	}
 
     return 0;
 }
