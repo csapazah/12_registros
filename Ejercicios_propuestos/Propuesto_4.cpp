@@ -7,5 +7,11 @@ struct Atleta{
 	int medallas;
 };
 int main(){
+    int n;
+	Atleta Deportista[100];
+	cout << "Nro de deportistas " << endl;
+	cin >> n;
+	cin.ignore();
+    
     return 0;
 }
