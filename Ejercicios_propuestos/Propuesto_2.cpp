@@ -31,6 +31,7 @@ int main(){
 		}
 		suma = suma + Identidad[j].edad;
     }
-
+    prom = suma / n;
+    
     return 0;
 }
