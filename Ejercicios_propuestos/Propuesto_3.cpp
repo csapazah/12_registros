@@ -24,11 +24,10 @@ int main(){
 		cout << "Dia de nacimiento" << endl;
 		cin >> Datos[i].dia;
 		cin.ignore();
-		cout << "===========================================";
+		cout << "===========================================" << endl;
 		
 	}
 
-    int Mes_leer;
 	int Mes_leer;
 	do{
 		cout << "DIGITE UN MES" << endl;
