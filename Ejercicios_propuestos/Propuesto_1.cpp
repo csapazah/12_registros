@@ -7,6 +7,11 @@ struct Empleado {
 	
 };
 int main(){
+    int n;
+	Empleado empleados[100];
+	cout << "Nro de empleados " << endl;
+	cin >> n;
+	cin.ignore();
 
     return 0;
 }
