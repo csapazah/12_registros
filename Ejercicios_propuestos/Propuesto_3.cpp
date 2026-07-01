@@ -27,5 +27,9 @@ int main(){
 		cout << "===========================================";
 		
 	}
+
+    int Mes_leer;
+	cout << "DIGITE UN MES" << endl;
+	cin >> Mes_leer;
     return 0;
 }
