@@ -12,7 +12,7 @@ int main(){
 	cout << "Nro de empleados " << endl;
 	cin >> n;
 	cin.ignore();
-    
+
     for(int i=0 ; i<n ; i++){
 		cout << "Empleado " << i+1 << endl;
 		cout << "Nombre" << endl;
@@ -24,6 +24,8 @@ int main(){
 		cin.ignore();
 		cout << "=======================================" << endl;
 	}
+    float mayor = empleados[0].sueldo;
+	float menor = empleados[0].sueldo;
 
     return 0;
 }
