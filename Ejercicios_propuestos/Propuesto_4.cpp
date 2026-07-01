@@ -34,6 +34,22 @@ int main(){
 
     int mayor = -1;
 	int pos_mayor = -1;
-    
+    for(int j=0 ; j<n ; j++){
+		if(strcmp(Deportista[j].pais,Pais_leer)==0){
+			cout << "Persona " << j+1 << endl;
+			cout << Deportista[j].nombre << endl;
+			cout << Deportista[j].pais << endl;
+			cout << Deportista[j].disciplina << endl;
+			cout << Deportista[j].medallas << endl;
+			cout << "=======================================" << endl;
+			
+			if(mayor<Deportista[j].medallas){
+			mayor = Deportista[j].medallas;
+			pos_mayor = j;
+			}
+		}
+		cout << endl;
+	}
+
     return 0;
 }
