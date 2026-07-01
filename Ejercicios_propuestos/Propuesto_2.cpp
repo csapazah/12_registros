@@ -25,6 +25,12 @@ int main(){
 		cout << "====================================" << endl;
 	}
     int cont_edad = 0,prom,suma = 0;
+    for(int j=0 ; j<n ; j++){
+		if((Identidad[j].edad)>50){
+			cont_edad++;
+		}
+		suma = suma + Identidad[j].edad;
+    }
 
     return 0;
 }
