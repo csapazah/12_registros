@@ -29,7 +29,20 @@ int main(){
 	}
 
     int Mes_leer;
-	cout << "DIGITE UN MES" << endl;
-	cin >> Mes_leer;
+	int Mes_leer;
+	do{
+		cout << "DIGITE UN MES" << endl;
+		cin >> Mes_leer;
+		if(Mes_leer!=0){
+			for(int j=0 ; j<n ; j++){
+				if(Datos[j].mes==Mes_leer){
+				cout << "Persona " << j+1 << endl;
+				cout << Datos[j].nombre << endl;
+				cout << Datos[j].anio << " " << Datos[j].mes << " " << Datos[j].dia;
+				}
+				cout << endl;
+			}
+		}
+	}while(Mes_leer !=0);
     return 0;
 }
