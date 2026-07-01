@@ -12,5 +12,20 @@ int main(){
 	cout << "Nro de personas " << endl;
 	cin >> n;
 	cin.ignore();
+
+    for(int i=0 ; i<n ; i++){
+		cout << "Persona " << i+1 << endl;
+		cout << "Digite su nombre" << endl;
+		cin.getline(Datos[i].nombre,50);
+		cout << "Anio de ancimiento" << endl;
+		cin >> Datos[i].anio;
+		cout << "Mes de nacimiento" << endl ;
+		cin >> Datos[i].mes;
+		cout << "Dia de nacimiento" << endl;
+		cin >> Datos[i].dia;
+		cin.ignore();
+		cout << "===========================================";
+		
+	}
     return 0;
 }
