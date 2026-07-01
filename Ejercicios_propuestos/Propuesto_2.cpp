@@ -7,5 +7,11 @@ struct Persona{
 	
 };
 int main(){
+    int n ;
+	Persona Identidad[100];
+	cout << "Nro de personas " << endl;
+	cin >> n;
+    cin.ignore();
+    
     return 0;
 }
