@@ -24,6 +24,7 @@ int main(){
 		cin.ignore();
 		cout << "====================================" << endl;
 	}
+    int cont_edad = 0,prom,suma = 0;
 
     return 0;
 }
